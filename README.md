@@ -1,2 +1,3 @@
 ## Design Patterns
-Yet to be documented
+- [Factory](./DesignPatternsDemo/Patterns/Creational/Factory/README.md)
+- [Object Pool](./DesignPatternsDemo/Patterns/Creational/ObjectPool/README.md)

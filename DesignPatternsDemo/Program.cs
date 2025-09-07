@@ -1,4 +1,4 @@
-﻿using Patterns.Creational.ObjectPool;
+﻿using Patterns.Creational;
 
 
 public class Program
@@ -6,6 +6,6 @@ public class Program
 
 	public static void Main()
 	{
-		Demo.Run();
+		ObjectPoolDemo.Run();
 	}
 }

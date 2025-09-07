@@ -1,9 +1,3 @@
-// Logistic scenario
-// Creator: Logistics (Abstract)
-///  Concrete Creator: Road Logistics, SeaLogistics
-// Product: Truck, Ship implements interface of Transport
-// client
-
 namespace Patterns.Creational
 {
 	public interface ITransport
@@ -48,7 +42,7 @@ namespace Patterns.Creational
 	}
 
 
-	public class Demo
+	public class FactoryDemo
 	{
 		public void Run()
 		{

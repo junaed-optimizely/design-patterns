@@ -1,4 +1,4 @@
-namespace Patterns.Creational.ObjectPool
+namespace Patterns.Creational
 {
 	public class ObjectPool<T>
 	{
@@ -30,7 +30,7 @@ namespace Patterns.Creational.ObjectPool
 	}
 
 
-	public class Demo
+	public class ObjectPoolDemo
 	{
 		public class Connection
 		{

@@ -48,7 +48,6 @@ Console.WriteLine(logistics.PlanDelivery());
 ```
 
 **File** [Factory.cs](./Factory.cs)
----
 
 ## Abstract Factory
 

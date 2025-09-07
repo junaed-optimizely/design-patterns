@@ -47,6 +47,7 @@ Console.WriteLine(logistics.PlanDelivery());
 // Output: Logistics: Delivering Road by Truck.
 ```
 
+**File** [Factory.cs](./Factory.cs)
 ---
 
 ## Abstract Factory
@@ -106,3 +107,5 @@ var dialog = factory.CreateDialog();
 dialog.AddButton(button);
 dialog.SetDimensions(100, 200);
 ```
+
+**File:** [AbstractFactory.cs](./AbstractFactory.cs)

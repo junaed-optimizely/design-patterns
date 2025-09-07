@@ -1,3 +1,4 @@
 ## Design Patterns
-- [Factory](./DesignPatternsDemo/Patterns/Creational/Factory/README.md)
 - [Object Pool](./DesignPatternsDemo/Patterns/Creational/ObjectPool/README.md)
+- [Factory](./DesignPatternsDemo/Patterns/Creational/Factory/README.md#factory)
+- [Abstract Factory](./DesignPatternsDemo/Patterns/Creational/Factory/README.md#abstract-factory)

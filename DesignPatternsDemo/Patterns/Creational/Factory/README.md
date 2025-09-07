@@ -40,13 +40,6 @@ classDiagram
 	Logistics --> ITransport : creates
 ```
 
-**Example usage:**
-```csharp
-Logistics logistics = new RoadLogistics();
-Console.WriteLine(logistics.PlanDelivery());
-// Output: Logistics: Delivering Road by Truck.
-```
-
 **File** [Factory.cs](./Factory.cs)
 
 ## Abstract Factory
@@ -73,38 +66,41 @@ classDiagram
 		+CreateButton()
 		+CreateDialog()
 	}
+
+
 	class IButton {
 		<<interface>>
 		+SetSize()
 	}
+	class WinButton{
+
+	}
+	class MacButton{
+
+	}
+
 	class IDialog {
 		<<interface>>
 		+SetDimensions()
 		+AddButton()
 	}
-	class WinButton
-	class MacButton
-	class WinDialog
-	class MacDialog
-	IGUIFactory <|.. WinGUIFactory
-	IGUIFactory <|.. MacGUIFactory
+	class WinDialog{
+
+	}
+	class MacDialog{
+
+	}
+
 	IButton <|.. WinButton
 	IButton <|.. MacButton
 	IDialog <|.. WinDialog
 	IDialog <|.. MacDialog
+	IGUIFactory <|.. WinGUIFactory
+	IGUIFactory <|.. MacGUIFactory
 	WinGUIFactory --> WinButton : creates
 	WinGUIFactory --> WinDialog : creates
 	MacGUIFactory --> MacButton : creates
 	MacGUIFactory --> MacDialog : creates
-```
-
-**Example usage:**
-```csharp
-IGUIFactory factory = new MacGUIFactory();
-var button = factory.CreateButton();
-var dialog = factory.CreateDialog();
-dialog.AddButton(button);
-dialog.SetDimensions(100, 200);
 ```
 
 **File:** [AbstractFactory.cs](./AbstractFactory.cs)

@@ -6,6 +6,6 @@ public class Program
 
 	public static void Main()
 	{
-		BuilderDemo.Run();
+		SingletonDemo.Run();
 	}
 }

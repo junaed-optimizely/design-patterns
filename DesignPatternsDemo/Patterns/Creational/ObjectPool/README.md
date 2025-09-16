@@ -1,4 +1,4 @@
-# Object Pool Pattern (C#)
+# Object Pool Pattern
 
 This example demonstrates the **Object Pool** design pattern in C#. The Object Pool pattern is used to manage the reuse of objects that are expensive to create, by keeping a pool of available objects and reusing them as needed.
 

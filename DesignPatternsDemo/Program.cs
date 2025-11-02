@@ -1,4 +1,5 @@
 ﻿using Patterns.Creational;
+using Patterns.Structural;
 
 
 public class Program
@@ -6,6 +7,6 @@ public class Program
 
 	public static void Main()
 	{
-		SingletonDemo.Run();
+		AdapterDemo.Run();
 	}
 }

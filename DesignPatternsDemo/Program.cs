@@ -7,6 +7,6 @@ public class Program
 
 	public static void Main()
 	{
-		BridgeDemo.Run();
+		CompositeDemo.Run();
 	}
 }
